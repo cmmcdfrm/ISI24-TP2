@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api</name>
+    </assembly>
+    <members>
+        <member name="M:api.Controllers.CarsController.GetAll">
+            <summary>
+            Obter todos os carros disponíveis.
+            </summary>
+            <returns>Lista de carros.</returns>
+        </member>
+        <member name="M:api.Controllers.CarsController.GetById(System.Int32)">
+            <summary>
+            Obter informações de um carro pelo ID.
+            </summary>
+            <param name="id">ID do carro.</param>
+            <returns>Dados do carro.</returns>
+        </member>
+        <member name="M:api.Controllers.CarsController.Add(api.Models.Car)">
+            <summary>
+            Adicionar um novo carro ao stand.
+            </summary>
+            <param name="car">Dados do carro a ser adicionado.</param>
+            <returns>Carro criado.</returns>
+        </member>
+        <member name="M:api.Controllers.CarsController.Update(System.Int32,api.Models.Car)">
+            <summary>
+            Atualizar as informações de um carro existente.
+            </summary>
+            <param name="id">ID do carro.</param>
+            <param name="car">Novos dados do carro.</param>
+        </member>
+        <member name="M:api.Controllers.CarsController.Delete(System.Int32)">
+            <summary>
+            Remover um carro do stand.
+            </summary>
+            <param name="id">ID do carro.</param>
+        </member>
+    </members>
+</doc>
